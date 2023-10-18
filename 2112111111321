@@ -43,7 +43,7 @@ _G.SquareTransparency = 0.7   -- The transparency of the 2D boxes / squares.
 _G.HeadOffset = Vector3.new(0, 0.5, 0)
 _G.LegsOffset = Vector3.new(0, 3, 0)
 
-_G.DisableKey = Enum.KeyCode.Q   -- The key that disables / enables the 2D boxes.
+_G.DisableKey = Enum.KeyCode.M   -- The key that disables / enables the 2D boxes.
 
 local function CreateSquares()
 	for _, v in next, Players:GetPlayers() do
